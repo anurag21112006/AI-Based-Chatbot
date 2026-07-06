@@ -1,0 +1,94 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good evening"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there!",
+                "Welcome! Ask me anything."
+            ]
+        },
+
+        {
+            "tag": "hours",
+            "patterns": [
+                "working hours",
+                "when are you open",
+                "office timing",
+                "timing"
+            ],
+            "responses": [
+                "Our office is open Monday to Saturday from 9 AM to 6 PM."
+            ]
+        },
+
+        {
+            "tag": "payment",
+            "patterns": [
+                "payment methods",
+                "how can I pay",
+                "upi",
+                "credit card",
+                "cash"
+            ],
+            "responses": [
+                "We accept UPI, Debit Card, Credit Card, Net Banking and Cash."
+            ]
+        },
+
+        {
+            "tag": "refund",
+            "patterns": [
+                "refund",
+                "return policy",
+                "money back"
+            ],
+            "responses": [
+                "Refunds are processed within 5-7 working days."
+            ]
+        },
+
+        {
+            "tag": "delivery",
+            "patterns": [
+                "delivery",
+                "shipping",
+                "parcel"
+            ],
+            "responses": [
+                "Delivery usually takes 3-5 business days."
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!"
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "see you",
+                "goodbye"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!"
+            ]
+        }
+    ]
+}
